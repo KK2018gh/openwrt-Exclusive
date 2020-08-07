@@ -12,13 +12,17 @@ on:
   repository_dispatch:
   release:
     types: published
+
   push:
     branches:
       - main
+
 #    paths:
 #      - '.config'
+
 #  schedule:
-#   - cron: 0 21 */3 * * 
+#    - cron: 0 21 */3 * * 
+
 #  watch:
 #    types: started
 
